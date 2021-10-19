@@ -1,0 +1,10 @@
+package Btapthem;
+
+public class _16 {
+public static int _16(int n) {
+	if (n==0)
+		return 1;
+	
+	return 
+}
+}

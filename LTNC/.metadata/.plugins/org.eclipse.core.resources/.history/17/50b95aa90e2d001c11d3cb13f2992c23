@@ -1,0 +1,9 @@
+package Btapthem;
+
+public class _30 {
+public static float getSn28(float x, int n) {
+	if (n==1)
+		return x;
+	return getSn28(x, n) 
+}
+}

@@ -1,0 +1,15 @@
+package KiemTra;
+
+public class bai3 {
+	public static boolean sum(int[] arr) {
+
+	}
+
+	public static boolean _3(int[] arr) {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

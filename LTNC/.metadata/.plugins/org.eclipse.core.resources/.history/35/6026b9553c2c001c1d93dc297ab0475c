@@ -1,0 +1,13 @@
+package Btapthem;
+
+public class _16 {
+public static int _16(int n) {
+	if (n==0)
+		return 1;
+	
+	return _16(n-1)+n;
+}
+public static void main(String[] args) {
+	System.out.println(_16(3));
+}
+}

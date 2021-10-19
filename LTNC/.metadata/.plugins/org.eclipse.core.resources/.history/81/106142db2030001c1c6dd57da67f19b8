@@ -1,0 +1,20 @@
+package KiemTra;
+
+public class bai3 {
+	public static int sum(int[] arr,int i) {
+
+		if(i==arr.length)
+			return 0;
+		return sum(arr,i+1)+arr[i];
+	}
+
+	public static boolean _3(int[] arr) {
+
+	}
+
+	public static void main(String[] args) {
+		int[] arr = {2,4,7};
+		
+		System.out.println(sum(arr,0));
+	}
+}

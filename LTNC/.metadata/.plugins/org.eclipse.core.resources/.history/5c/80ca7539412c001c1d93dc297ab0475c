@@ -1,0 +1,38 @@
+package Btapthem;
+
+public class _16 {
+	public static int getSn16(int n) {
+		if (n == 0)
+			return 0;
+
+		return n + getSn16(n - 1);
+	}
+
+	public static int getSn17(int n) {
+		if (n == 1)
+			return 1;
+
+		return n * n + getSn17(n - 1);
+	}
+
+	public static double getSn18(int n) {
+		if (n == 0)
+			return 0;
+
+		return (1/n+getSn18(n-1));
+	}
+
+	public static double getSn19(int n) {
+		if (n == 0)
+			return 0;
+
+		return (1/ 2 * n + getSn19(n - 1));
+	}
+
+	public static void main(String[] args) {
+		System.out.println(getSn16(3));
+		System.out.println(getSn17(2));
+		System.out.println(getSn18(2));
+		System.out.println(getSn19(2));
+	}
+}

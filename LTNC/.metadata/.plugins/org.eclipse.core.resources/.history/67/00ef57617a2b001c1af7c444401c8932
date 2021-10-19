@@ -1,0 +1,14 @@
+package Btapthem;
+
+public class _11 {
+public static int solonnhat(int n) {
+	if (n==0)
+		return 0;
+	n/=10;
+	return Math.max(solonnhat(n%10), solonnhat(n%10));
+	
+}
+public static void main(String[] args) {
+	System.out.println(solonnhat(2345));
+}
+}

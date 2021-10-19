@@ -1,0 +1,14 @@
+package Btapthem;
+
+public class _15 {
+	public static boolean songuyento(int n) {
+
+		if (Math.sqrt(n) % 2 != 0)
+			return true;
+		return false;
+
+	}
+	public static void main(String[] args) {
+		songuyento(5);
+	}
+}

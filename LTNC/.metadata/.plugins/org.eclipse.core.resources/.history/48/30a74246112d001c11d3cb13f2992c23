@@ -1,0 +1,12 @@
+package Btapthem;
+
+public class _31 {
+public static float getSn31(float x, int n) {
+	if (n==1)
+		return x;
+	return (_25.luyThua(x, n)/_16.getSn24(n))+getSn31(x, n-1);
+}
+	public static void main(String[] args) {
+		System.out.println(getSn31(3, 4));
+	}
+}

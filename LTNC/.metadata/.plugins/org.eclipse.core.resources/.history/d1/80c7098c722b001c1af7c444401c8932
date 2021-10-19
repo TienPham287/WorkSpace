@@ -1,0 +1,12 @@
+package Btapthem;
+
+public class _10 {
+	public static int daonguoc(int n) {
+		if (n == 0)
+			return 0;
+		return daonguoc(n /10)%10;
+	}
+	public static void main(String[] args) {
+		System.out.println(daonguoc(123));
+	}
+}

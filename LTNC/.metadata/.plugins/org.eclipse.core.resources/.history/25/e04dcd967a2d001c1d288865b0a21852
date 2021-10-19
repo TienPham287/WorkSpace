@@ -1,0 +1,20 @@
+package Btapthem;
+
+public class _34 {
+public static float Funcion(float n) {
+	if (n==1)
+		return  (float) Math.sqrt(2);
+	return (float) Math.sqrt(2+Funcion(n-1));
+	
+}
+public static float Funcion35(float n) {
+	if (n==1)
+		return 1;
+	return (float) (Math.sqrt(n)+ Math.sqrt(Funcion35(n-1)));
+}
+public static void main(String[] args) {
+	System.out.println(Funcion(3));
+	System.out.println(Funcion35(3));
+	}
+
+}

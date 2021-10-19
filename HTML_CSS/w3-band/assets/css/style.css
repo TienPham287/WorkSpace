@@ -1,0 +1,57 @@
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Helvetica, Arial, sans-serif;
+}
+#main{
+    /*
+    1. Từ ngoài vào trong
+    2.từ trên xuống dưới
+    3.Tổng quan đến chi tiết
+/* 1. vị trí(wight, height)
+2. kích thướcolor: 3. Màu sắc
+4.Kiểu dáng */
+
+}
+#header{
+
+    height:46px;
+    background-color: #000;
+
+
+}
+
+#nav li{
+    display: inline-block;
+}
+#nav li a{
+    color: #fff;
+        text-decoration:none;
+        line-height: 46px;
+        padding: 0 24px;
+        display: block;
+}
+#nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav{
+    /* display: none; */
+}
+#slider{
+min-height: 500px;
+background-color: #333;
+}
+#content{
+
+
+}
+#footer{
+
+
+}
